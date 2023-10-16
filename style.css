@@ -127,49 +127,6 @@ section .content p {
   text-align: justify;
 }
 
-form {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  display: inline-block;
-  max-width: 400px; /* Batasi lebar maksimum formulir */
-  margin: 0 auto; /* Pusatkan formulir */
-}
-
-label {
-  display: block;
-  margin: 10px 0;
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-  width: 100%; /* Penuhkan lebar tombol */
-  display: block; /* Munculkan tombol pada satu baris terpisah */
-  margin-top: 10px; /* Tambahkan jarak atas */
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-p {
-  margin: 20px 0;
-  font-weight: bold;
-}
 
 /* Media Queries untuk responsivitas */
 
