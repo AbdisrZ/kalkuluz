@@ -13,8 +13,8 @@
     var c = parseFloat(document.getElementById('c2').value);
     var discriminant = b * b - 4 * a * c;
     if (discriminant > 0) {
-      var x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
-      var x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+      var x1 = (-b + Math.floor(discriminant)) / (2 * a);
+      var x2 = (-b - Math.floor(discriminant)) / (2 * a);
       document.getElementById('hasil_2').textContent = "x1 = " + x1 + ", x2 = " + x2;
     } else if (discriminant === 0) {
       var x = -b / (2 * a);
